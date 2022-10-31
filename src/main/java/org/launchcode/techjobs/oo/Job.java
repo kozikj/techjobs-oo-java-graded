@@ -36,7 +36,11 @@ public class Job {
             setName("Data not available");
         }
         if (employer.getValue().equals("")) {
+<<<<<<< HEAD
             employer.setValue("Data not available");
+=======
+           employer.setValue("Data not available");
+>>>>>>> b774f8f360f0a367649004e98e93386da1d2a206
         }
         if (location.getValue().equals("")) {
             location.setValue("Data not available");
@@ -118,4 +122,8 @@ public class Job {
     public int getId() {
         return id;
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> b774f8f360f0a367649004e98e93386da1d2a206
