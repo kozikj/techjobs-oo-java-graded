@@ -13,12 +13,12 @@ public class Job {
     private PositionType positionType;
     private CoreCompetency coreCompetency;
 
-    public Job(){
+    public Job() {
         id = nextId;
         nextId++;
     }
 
-    public Job(String name, Employer employer, Location location, PositionType positionType, CoreCompetency coreCompetency){
+    public Job(String name, Employer employer, Location location, PositionType positionType, CoreCompetency coreCompetency) {
         this();
         this.name = name;
         this.employer = employer;
@@ -36,11 +36,7 @@ public class Job {
             setName("Data not available");
         }
         if (employer.getValue().equals("")) {
-<<<<<<< HEAD
             employer.setValue("Data not available");
-=======
-           employer.setValue("Data not available");
->>>>>>> b774f8f360f0a367649004e98e93386da1d2a206
         }
         if (location.getValue().equals("")) {
             location.setValue("Data not available");
@@ -122,8 +118,4 @@ public class Job {
     public int getId() {
         return id;
     }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> b774f8f360f0a367649004e98e93386da1d2a206

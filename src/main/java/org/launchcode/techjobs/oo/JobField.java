@@ -4,20 +4,10 @@ import java.util.Objects;
 
 public abstract class JobField {
 
-<<<<<<< HEAD
-    //    Fields
-=======
-//    Fields
->>>>>>> b774f8f360f0a367649004e98e93386da1d2a206
     private int id;
     private static int nextId = 1;
     private String value;
 
-<<<<<<< HEAD
-    //    Constructors
-=======
-//    Constructors
->>>>>>> b774f8f360f0a367649004e98e93386da1d2a206
     public JobField() {
         this.id = nextId;
         nextId ++;
@@ -28,11 +18,6 @@ public abstract class JobField {
         this.value = value;
     }
 
-<<<<<<< HEAD
-    //    Getters/Setters
-=======
-//    Getters/Setters
->>>>>>> b774f8f360f0a367649004e98e93386da1d2a206
     public int getId() {
         return id;
     }
@@ -45,11 +30,7 @@ public abstract class JobField {
         this.value = value;
     }
 
-<<<<<<< HEAD
-    //    Methods
-=======
-//    Methods
->>>>>>> b774f8f360f0a367649004e98e93386da1d2a206
+
     public String toString() {
         return value;
     }

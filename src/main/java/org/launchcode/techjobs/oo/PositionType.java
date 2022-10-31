@@ -7,8 +7,4 @@ public class PositionType extends JobField {
         super(value);
     }
 
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> b774f8f360f0a367649004e98e93386da1d2a206
